@@ -17,7 +17,7 @@ Explanation: Minimum sum is 3 + 6 + 9 + 15 = 33 and maximum sum is 6 + 9 + 15 + 
 #include <stdlib.h>
 
 void miniMaxSum(int arr[],int n) {
-    int min_val,max_val,min_sum,max_sum,sum;
+    long min_val,max_val,min_sum,max_sum,sum;
     int i;
 
     min_val = max_val = arr[0];
@@ -35,7 +35,7 @@ void miniMaxSum(int arr[],int n) {
     printf("\nmin_valu = %d , max_valu = %d \n",min_val,max_val);
     min_sum = sum - max_val;
     max_sum = sum - min_val;
-    printf("minsum = %d , max_sum = %d \n",min_sum,max_sum);
+    printf("minsum = %ld , max_sum = %ld \n",min_sum,max_sum);
 
 }
 
