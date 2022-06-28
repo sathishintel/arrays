@@ -1,3 +1,8 @@
+/* How to print floating point numbers with a specified precision? Rounding is not required. 
+ * For example, 5.48958123 should be printed as 5.4895 if given precision is 4
+ */
+
+
 void plusMinus(int arr_count, int* arr) {
     int i;
     float num_of_zeros = 0,num_of_negs = 0,num_of_pos = 0 ;
