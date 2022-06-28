@@ -15,10 +15,10 @@ void plusMinus(int arr_count, int* arr) {
             num_of_pos++;            
         }
     }
-    if (num_of_pos)
-        printf("%0.6f\n",num_of_pos/arr_count);
-    if (num_of_negs)
-         printf("%0.6f\n",num_of_negs/arr_count);
-    if (num_of_zeros)
-         printf("%0.6f\n",num_of_zeros/arr_count);
+    
+    /* printf("%.*f\n",Precision count,Decimal number);*/
+    printf("%.*f\n",arr_count,num_of_pos/arr_count);
+    printf("%.*f\n",arr_count,num_of_negs/arr_count);
+    printf("%.*f\n",arr_count,num_of_zeros/arr_count);
 }
+
