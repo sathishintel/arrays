@@ -1,3 +1,17 @@
+/*
+nums[] = { 5, 6, -5, 5, 3, 5, 3, -2, 0 }
+target = 8
+ 
+ 
+Subarrays with sum 8 are
+ 
+{ -5, 5, 3, 5 }
+{ 3, 5 }
+{ 5, 3 }
+ 
+The longest subarray is { -5, 5, 3, 5 } having length 4
+*/
+
 #include <stdio.h>
  
 // Naive function to find the maximum length subarray with sum `S` present
